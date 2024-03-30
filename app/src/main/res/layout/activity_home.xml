@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Activity_Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/profil" />
+
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rebly Megib Tabuni"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+           >
+
+            <Button
+                android:id="@+id/intentOpenWeb"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/birulangit_10"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Profil"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginLeft="50dp"/>
+
+            <Button
+                android:id="@+id/datalist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/birulangit"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Legen Regea"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
